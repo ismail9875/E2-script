@@ -50,7 +50,7 @@ ${BIWhite}${Red} =  [17] IpAudio            [18]               = $clear
 ${BIWhite}${Red} =============================================== $clear
 """$clear;echo "${BIWhite}${Red} * Please Wait for download & install plugins    $clear"
 echo  "${BIWhite}${Red} * Your STB will be restarted many times         $clear"
-#$AjP;$Key;$RQS;$DRP;$EPG;$FrSrvr;$E2i;$xtra;$JDMKR;$fto7;$Nc;$os;$tvAd;ipA;
+$AjP;$Key;$RQS;$DRP;$EPG;$FrSrvr;$E2i;$xtra;$JDMKR;$fto7;$Nc;$os;$tvAd;ipA;
 echo  "${BIWhite}${Red}  All Plugins are installed                      $clear"
 #init 3
 #sleep 2
