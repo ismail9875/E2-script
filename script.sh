@@ -26,7 +26,7 @@ os="opkg install http://178.63.156.75/paneladdons/OSCamEmus/11726/enigma2-softca
 ipA='wget -q "--no-check-certificate" http://ipkinstall.ath.cx/ipaudio/installer-ffmpeg.sh -O - | /bin/sh'
 
 
-echo -e """${BIWhite}${Red} =============[ By : Ismail9875 ]=============== $clear
+echo """${BIWhite}${Red} =============[ By : Ismail9875 ]=============== $clear
 ${BIWhite}${Red} =  _____ ____    ____            _       _    = $clear
 ${BIWhite}${Red} = | ____|___ \  / ___|  ___ _ __(_)_ __ | |_  = $clear
 ${BIWhite}${Red} = |  _|   __) | \___ \ / __| '__| | '_ \| __| = $clear
@@ -36,7 +36,7 @@ ${BIWhite}${Red} =                                 |_|         = $clear
 ${BIWhite}${Red} =              Plugins Installer              = $clear
 ${BIWhite}${Red} =============================================== $clear"""
 ####### Main Script #######
-echo -e """${BIWhite}${Red}                                                 ${clear}
+echo """${BIWhite}${Red}                                                 ${clear}
 ${BIWhite}${Red}  Available Plugins                              $clear
 ${BIWhite}${Red} =============================================== $clear
 ${BIWhite}${Red} =  [01] AjPanel            [02]  KeyAdder     = $clear
@@ -49,10 +49,10 @@ ${BIWhite}${Red} =  [13] tvAddons           [14]  JediMaker    = $clear
 ${BIWhite}${Red} =  [15] Channels (Mos19)   [16]  MyChannels   = $clear
 ${BIWhite}${Red} =  [17] IpAudio            [18]               = $clear
 ${BIWhite}${Red} =============================================== $clear
-"""$clear;echo -e "${BIWhite}${Red} * Please Wait for download & install plugins    $clear"
-echo -e "${BIWhite}${Red} * Your STB will be restarted many times         $clear"
+"""$clear;echo "${BIWhite}${Red} * Please Wait for download & install plugins    $clear"
+echo  "${BIWhite}${Red} * Your STB will be restarted many times         $clear"
 #$AjP;$Key;$RQS;$DRP;$EPG;$FrSrvr;$E2i;$xtra;$JDMKR;$fto7;$Nc;$os;$tvAd;ipA;
-echo -e "${BIWhite}${Red}  All Plugins are installed                      $clear"
+echo  "${BIWhite}${Red}  All Plugins are installed                      $clear"
 #init 3
 #sleep 2
 #init 4
