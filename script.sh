@@ -25,8 +25,8 @@ Nc='wget https://raw.githubusercontent.com/biko-73/Ncam_EMU/main/installer.sh -O
 os="opkg install http://178.63.156.75/paneladdons/OSCamEmus/11726/enigma2-softcams-oscam-all-images_11.726-emu-r799-arm+mips_all.ipk"
 ipA='wget -q "--no-check-certificate" http://ipkinstall.ath.cx/ipaudio/installer-ffmpeg.sh -O - | /bin/sh'
 ###### Header
-echo """${BIWhite}${Red} =============[ By : Ismail9875 ]===============°$clear
-${BIWhite}${Red} =  _____ ____    ____            _       _    = $clear
+echo "${BIWhite}${Red} =============[ By : Ismail9875 ]=============== "$clear
+echo """${BIWhite}${Red} =  _____ ____    ____            _       _    = $clear
 ${BIWhite}${Red} = | ____|___ \  / ___|  ___ _ __(_)_ __ | |_  = $clear
 ${BIWhite}${Red} = |  _|   __) | \___ \ / __| '__| | '_ \| __| = $clear
 ${BIWhite}${Red} = | |___ / __/   ___) | (__| |  | | |_) | |_  = $clear
