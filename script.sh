@@ -26,7 +26,7 @@ os="opkg install http://178.63.156.75/paneladdons/OSCamEmus/11726/enigma2-softca
 ipA='wget -q "--no-check-certificate" http://ipkinstall.ath.cx/ipaudio/installer-ffmpeg.sh -O - | /bin/sh'
 
 
-echo """${BIWhite}${Red} =============[ By : Ismail9875 ]=============== $clear
+echo """${BIWhite}${Red} =============[ By : Ismail9875 ]===============$clear
 ${BIWhite}${Red} =  _____ ____    ____            _       _    = $clear
 ${BIWhite}${Red} = | ____|___ \  / ___|  ___ _ __(_)_ __ | |_  = $clear
 ${BIWhite}${Red} = |  _|   __) | \___ \ / __| '__| | '_ \| __| = $clear
