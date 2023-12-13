@@ -24,6 +24,7 @@ tvAd="opkg install http://178.63.156.75/paneladdons/panels/enigma2-plugin-extens
 Nc='wget https://raw.githubusercontent.com/biko-73/Ncam_EMU/main/installer.sh -O - | /bin/sh'
 os="opkg install http://178.63.156.75/paneladdons/OSCamEmus/11726/enigma2-softcams-oscam-all-images_11.726-emu-r799-arm+mips_all.ipk"
 ipA='wget -q "--no-check-certificate" http://ipkinstall.ath.cx/ipaudio/installer-ffmpeg.sh -O - | /bin/sh'
+Mos19='wget --no-check-certificate https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/installer.py -qO - | python'
 ###### Header
 echo "${BIWhite}${Red} =============[ By : Ismail9875 ]=============== "$clear
 echo """${BIWhite}${Red} =  _____ ____    ____            _       _    = $clear
@@ -50,7 +51,7 @@ ${BIWhite}${Red} =  [17] IpAudio            [18]               = $clear
 ${BIWhite}${Red} =============================================== $clear
 """$clear;echo "${BIWhite}${Red} * Please Wait for download & install plugins    $clear"
 echo  "${BIWhite}${Red} * Your STB will be restarted many times         $clear"
-$AjP;$Key;$RQS;$DRP;$EPG;$FrSrvr;$E2i;$xtra;$JDMKR;$fto7;$Nc;$os;$tvAd;ipA;
+$AjP;$Key;$RQS;$DRP;$EPG;$FrSrvr;$E2i;$xtra;$JDMKR;$fto7;$Nc;$os;$tvAd;ipA;Mos19
 echo  "${BIWhite}${Red}  All Plugins are installed                      $clear"
 #init 3
 #sleep 2
