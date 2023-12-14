@@ -11,10 +11,6 @@ BIWhite='\033[0;107m'   # White
 # Clear the color after that
 clear='\033[0m'
 
-if [[ $STB_IMAGE = 'openatv' ]]; then 
-    ${OpenAtvFix} 
-else
-
 ####### plugs
 AjP="wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh"
 Key='wget "--no-check-certificate" https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh'
@@ -33,7 +29,9 @@ ipA='wget -q "--no-check-certificate" http://ipkinstall.ath.cx/ipaudio/installer
 Mos19='wget --no-check-certificate https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/installer.py -qO - | python'
 E2iPy2='wget -q "--no-check-certificate" http://ipkinstall.ath.cx/ipk-install/E2IPLAYER+TSIPLAYER-PYTHON3/installer.sh -O - | /bin/sh'
 choch='wget -qO- --no-check-certificate "https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup" | bash -s install'
-
+if [[ $STB_IMAGE = 'openatv' ]]; then 
+    ${OpenAtvFix} 
+else
 echo """${BIWhite}${Red} =============[ By : Ismail9875 ]=============== $clear
 ${BIWhite}${Red} =  _____ ____    ____            _       _    = $clear
 ${BIWhite}${Red} = | ____|___ \  / ___|  ___ _ __(_)_ __ | |_  = $clear
@@ -70,6 +68,7 @@ if [ "$PYTHON_VERSION" < 3 ] ; then
 $E2iPy2
 else 
 $E2iPy3
+fi
 fi
 echo "${BIWhite}${Red}  All Plugins are installed                      $clear"
 #init 3
