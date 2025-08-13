@@ -4,46 +4,44 @@
 ##############################
 
 echo """
-${Red} =============[ By : Ismail9875 ]=============== $clear
-${Red} =  _____ ____    ____            _       _    = $clear
-${Red} = | ____|___ \  / ___|  ___ _ __(_)_ __ | |_  = $clear
-${Red} = |  _|   __) | \___ \ / __| '__| | '_ \| __| = $clear
-${Red} = | |___ / __/   ___) | (__| |  | | |_) | |_  = $clear
-${Red} = |_____|_____| |____/ \___|_|  |_| .__/ \__| = $clear
-${Red} =                                 |_|         = $clear
-${Red} =              Plugins Installer              = $clear
-${Red} =============================================== $clear"""
+ =============[ By : Ismail9875 ]=============== 
+ =  _____ ____    ____            _       _    = 
+ = | ____|___ \  / ___|  ___ _ __(_)_ __ | |_  = 
+ = |  _|   __) | \___ \ / __| '__| | '_ \| __| = 
+ = | |___ / __/   ___) | (__| |  | | |_) | |_  = 
+ = |_____|_____| |____/ \___|_|  |_| .__/ \__| = 
+ =                                 |_|         = 
+ =        Plugins Skin Emu Installer           = 
+ =============================================== """
 ####### Main Script #######
 
-echo "${Red} * Please Wait for download & install plugins    $clear"
-echo "${BIWhite}${Red} * Your STB will be restarted many times         $clear"
+echo "--------------------------------------------------   "
+echo "    Please Wait for download & install plugins       "
+echo "       Your STB will be restarted many times         "
 
 
-if [ "$PYTHON_VERSION" < 3 ] ; then
-wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh
-wget "--no-check-certificate" https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh
-wget "--no-check-certificate" https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh
-wget -q "--no-check-certificate" https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh -O - | /bin/sh
-wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/shwget -q "--no-check-certificate" http://ipkinstall.ath.cx/ipk-install/Multi-Stalker/MultiStalker.sh -O - | /bin/sh
-wget -q "--no-check-certificate" https://github.com/digiteng/xtra/raw/main/xtraEvent.sh -O - | /bin/sh
-wget https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh -O - | /bin/sh
-wget -q "--no-check-certificate" https://raw.githubusercontent.com/ziko-ZR1/FootOnsat/main/Download/install.sh -O - | /bin/sh
-wget http://patbuweb.com/tvPanel/tvaddon.tar -O /tmp/tvaddon.tar ; tar -xvf /tmp/tvaddon.tar -C
-wget https://raw.githubusercontent.com/biko-73/Ncam_EMU/main/installer.sh -O - | /bin/sh
-wget -qO- --no-check-certificate "https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup" | bash -s install
-else 
-wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh
-wget "--no-check-certificate" https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh
-wget "--no-check-certificate" https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh
-wget -q "--no-check-certificate" https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh -O - | /bin/sh
-wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh
-wget -q "--no-check-certificate" https://github.com/digiteng/xtra/raw/main/xtraEvent.sh -O - | /bin/sh
-wget https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh -O - | /bin/sh
-wget -q "--no-check-certificate" https://raw.githubusercontent.com/ziko-ZR1/FootOnsat/main/Download/install.sh -O - | /bin/sh
-wget http://patbuweb.com/tvPanel/tvaddon.tar -O /tmp/tvaddon.tar ; tar -xvf /tmp/tvaddon.tar -C
-wget https://raw.githubusercontent.com/biko-73/Ncam_EMU/main/installer.sh -O - | /bin/sh
-fi
+wget https://gitlab.com/eliesat/extensions/-/raw/main/footonsat/footonsat.sh -O - | /bin/sh
+wget https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate.sh -O - | /bin/sh
+wget https://gitlab.com/eliesat/extensions/-/raw/main/cacheflush/cacheflush.sh -O - | /bin/sh
+wget https://gitlab.com/eliesat/extensions/-/raw/main/chocholousek-picons/chocholousek-picons.sh -O - | /bin/sh
+wget https://gitlab.com/eliesat/extensions/-/raw/main/e2iplayer/e2iplayer-main.sh -O - / /bin/sh
+wget https://gitlab.com/eliesat/extensions/-/raw/main/e2reader/enigma2readeradder.sh -O - | /bin/sh 
+wget https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/1.5/ipaudiopro.sh -O - | /bin/sh
+wget https://gitlab.com/eliesat/extensions/-/raw/main/keyadder/keyadder.sh -O - | /bin/sh
+wget https://gitlab.com/eliesat/extensions/-/raw/main/raedquicksignal/raedquicksignal.sh -O - | /bin/sh
+wget https://gitlab.com/eliesat/extensions/-/raw/main/xklass/xklass.sh -O - | /bin/sh 
+wget https://gitlab.com/eliesat/extensions/-/raw/main/ajpanel/ajpanel.sh -O - | /bin/sh 
+wget https://gitlab.com/eliesat/softcams/-/raw/main/levi/oscam.sh -O - | /bin/sh 
+wget https://gitlab.com/eliesat/softcams/-/raw/main/raed/ncam.sh -O - | /bin/sh 
+wget https://gitlab.com/eliesat/skins/-/raw/main/all/aglare-fhd/aglare-fhd/aglare-fhd.sh -O - | /bin/sh 
+wget https://gitlab.com/eliesat/skins/-/raw/main/all/fury-fhd/fury-fhd.sh -O - | /bin/sh
+wget https://gitlab.com/eliesat/skins/-/raw/main/all/xdreamy/xdreamy.sh -O - | /bin/sh 
 
-echo "${Red}  All Plugins are installed                      $clear"
+
+echo """
+=================================
+=== All Plugins are installed ===
+=================================
+"""
 
 exit 0
