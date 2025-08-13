@@ -60,7 +60,7 @@ wget https://raw.githubusercontent.com/biko-73/Ncam_EMU/main/installer.sh -O - |
 wget -q "--no-check-certificate" http://ipkinstall.ath.cx/ipaudio/installer-ffmpeg.sh -O - | /bin/sh
 wget --no-check-certificate https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/installer.py -qO - | python
 wget -qO- --no-check-certificate "https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup" | bash -s install
-opkg install http://178.63.156.75/paneladdons/Pluginsoe20/multimedia/enigma2-plugin-extensions-e2iplayer_2023.09.07.01_all_Py2.ipk
+#opkg install http://178.63.156.75/paneladdons/Pluginsoe20/multimedia/enigma2-plugin-extensions-e2iplayer_2023.09.07.01_all_Py2.ipk
 else 
 wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh
 wget "--no-check-certificate" https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh
@@ -78,7 +78,7 @@ wget https://raw.githubusercontent.com/biko-73/Ncam_EMU/main/installer.sh -O - |
 wget -q "--no-check-certificate" http://ipkinstall.ath.cx/ipaudio/installer-ffmpeg.sh -O - | /bin/sh
 wget --no-check-certificate https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/installer.py -qO - | python
 wget -qO- --no-check-certificate "https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup" | bash -s install
-opkg install http://178.63.156.75/paneladdons/Pluginsoe20/multimedia/enigma2-plugin-extensions-e2iplayer_2023.09.07.01_all_Py3.ipk
+#opkg install http://178.63.156.75/paneladdons/Pluginsoe20/multimedia/enigma2-plugin-extensions-e2iplayer_2023.09.07.01_all_Py3.ipk
 fi
 fi
 echo "${Red}  All Plugins are installed                      $clear"
